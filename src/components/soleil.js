@@ -1,5 +1,5 @@
 import { Mesh, SphereGeometry, TextureLoader, MeshStandardMaterial } from 'three';
-import sunTexture from '../assets/images/124867239-matériau-de-conception-texture-du-soleil-au-centre-de-l-univers-du-système-solaire-pas-de-rendu-3d.jpg';
+import sunTexture from '/assets/images/124867239-matériau-de-conception-texture-du-soleil-au-centre-de-l-univers-du-système-solaire-pas-de-rendu-3d.jpg';
 export default class Sun extends Mesh {
   constructor(radius) {
     const texture = new TextureLoader().load(sunTexture);
