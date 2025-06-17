@@ -11,13 +11,13 @@ import {
 } from 'three';
 
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { Planet } from './components/planete.js';
-import Sun from './components/soleil.js';
+import { Planet } from './src/components/planete.js';
+import Sun from './src/components/soleil.js';
 
 const scene = new Scene();
 
 const loader = new TextureLoader();
-loader.load('assets/images/sky.jpg', texture => {
+loader.load('/assets/images/sky.jpg', texture => {
   scene.background = texture;
 });
 
@@ -51,7 +51,7 @@ let selectedPlanet = null;
 let startTime = Date.now();
 let lastTime = Date.now();
 
-fetch('./planets.json')
+fetch('/planets.json')
   .then(res => res.json())
   .then(data => {
     planets = data.map(p => {

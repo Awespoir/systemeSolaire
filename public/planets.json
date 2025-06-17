@@ -6,7 +6,7 @@
     "orbitalPeriod": 88,
     "rotationPeriod": 1407.6,
     "tilt": 0,
-    "texture": "assets/images/mercury.jpg",
+    "texture": "/assets/images/mercury.jpg",
     "moons": []
   },
   {
@@ -16,7 +16,7 @@
     "orbitalPeriod": 225,
     "rotationPeriod": -5832.5,
     "tilt": 177,
-    "texture": "assets/images/venus.jpg",
+    "texture": "/assets/images/venus.jpg",
     "moons": []
   },
   {
@@ -26,13 +26,13 @@
     "orbitalPeriod": 365,
     "rotationPeriod": 24,
     "tilt": 23.5,
-    "texture": "assets/images/earth.jpg",
+    "texture": "/assets/images/earth.jpg",
     "moons": [
       {
         "diameter": 3475,
         "distance": 0.384,
         "orbitalPeriod": 27.3,
-        "texture": "assets/images/moon.jpg"
+        "texture": "/assets/images/moon.jpg"
       }
     ]
   },
@@ -43,19 +43,19 @@
     "orbitalPeriod": 687,
     "rotationPeriod": 24.6,
     "tilt": 25,
-    "texture": "assets/images/mars.jpg",
+    "texture": "/assets/images/mars.jpg",
     "moons": [
       {
         "diameter": 22.2,
         "distance": 0.006,
         "orbitalPeriod": 0.3,
-        "texture": "assets/images/moon.jpg"
+        "texture": "/assets/images/moon.jpg"
       },
       {
         "diameter": 12.4,
         "distance": 0.023,
         "orbitalPeriod": 1.3,
-        "texture": "assets/images/moon.jpg"
+        "texture": "/assets/images/moon.jpg"
       }
     ]
   },
@@ -66,7 +66,7 @@
     "orbitalPeriod": 4333,
     "rotationPeriod": 9.9,
     "tilt": 3,
-    "texture": "assets/images/jupiter.jpg",
+    "texture": "/assets/images/jupiter.jpg",
     "moons": [
       {
         "diameter": 5268,
@@ -101,7 +101,7 @@
     "orbitalPeriod": 10759,
     "rotationPeriod": 10.7,
     "tilt": 27,
-    "texture": "assets/images/saturn.jpg",
+    "texture": "/assets/images/saturn.jpg",
     "moons": [
       {
         "diameter": 5150,
@@ -124,7 +124,7 @@
     "orbitalPeriod": 30687,
     "rotationPeriod": -17.2,
     "tilt": 98,
-    "texture": "assets/images/uranus.jpg",
+    "texture": "/assets/images/uranus.jpg",
     "moons": [
       {
         "diameter": 1578,
@@ -147,7 +147,7 @@
     "orbitalPeriod": 60190,
     "rotationPeriod": 16.1,
     "tilt": 28,
-    "texture": "assets/images/neptune.jpg",
+    "texture": "/assets/images/neptune.jpg",
     "moons": [
       {
         "diameter": 2706,
