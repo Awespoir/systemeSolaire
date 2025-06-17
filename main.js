@@ -17,7 +17,7 @@ import Sun from './src/components/soleil.js';
 const scene = new Scene();
 
 const loader = new TextureLoader();
-loader.load('/assets/images/sky.jpg', texture => {
+loader.load('/public/assets/images/sky.jpg', texture => {
   scene.background = texture;
 });
 
@@ -51,7 +51,7 @@ let selectedPlanet = null;
 let startTime = Date.now();
 let lastTime = Date.now();
 
-fetch('/planets.json')
+fetch('/public/planets.json')
   .then(res => res.json())
   .then(data => {
     planets = data.map(p => {
